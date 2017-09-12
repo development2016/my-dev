@@ -20,7 +20,7 @@ class ModelProjectGenerate extends Model {
 
 		$dsn = 'mongodb://opencart:Amtujpino.leso@aws-ap-southeast-1-portal.2.dblayer.com:15429,aws-ap-southeast-1-portal.0.dblayer.com:15429/asiaebuy-my?ssl=true';
 
-		$manager = new MongoDB\Driver\Manager($dsn,[],['context'=>$ctx]); 
+		$manager = new MongoDB\Driver\Manager($dsn,[],['context'=>$ctx]);  
 
 		
 

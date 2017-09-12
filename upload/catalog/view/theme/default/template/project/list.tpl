@@ -3,6 +3,7 @@ $route = 'index.php?route=project/view';
 $quotation = '&quotation=';
 $belong = '&belong=';
 
+$routePrint = 'index.php?route=project/print';
 
 ?>
 <div class="container">
@@ -42,7 +43,7 @@ $belong = '&belong=';
             <td>
                 <a href="<?php echo $base; ?>/<?php echo $route ?><?php echo $quotation ?><?php echo $document['quotation_no']; ?><?php echo $belong ?><?php echo $document['enter_by']; ?>">View</a>
                 <br>
-               
+               <a href="<?php echo $base; ?>/<?php echo $routePrint ?><?php echo $quotation ?><?php echo $document['quotation_no']; ?><?php echo $belong ?><?php echo $document['enter_by']; ?>">Print</a>
             </td>
           </tr>
             
